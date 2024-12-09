@@ -11,7 +11,9 @@ import SwiftUI
 struct DisneyQuizApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            QuestionListView()
+            
         }
+        
     }
 }

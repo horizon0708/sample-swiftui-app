@@ -11,6 +11,15 @@
 		6C41602E2CF466100040BABA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41602D2CF466100040BABA /* ContentView.swift */; };
 		6C4160302CF466110040BABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C41602F2CF466110040BABA /* Assets.xcassets */; };
 		6C4160332CF466110040BABA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4160322CF466110040BABA /* Preview Assets.xcassets */; };
+		6C41603D2CF466510040BABA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41603C2CF466510040BABA /* Question.swift */; };
+		6C41603F2CF467840040BABA /* QuestionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41603E2CF467840040BABA /* QuestionDetailView.swift */; };
+		6C4160412CF5B9ED0040BABA /* QuestionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4160402CF5B9ED0040BABA /* QuestionFormView.swift */; };
+		6C4160432CF5BD8D0040BABA /* QuestionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4160422CF5BD8D0040BABA /* QuestionListView.swift */; };
+		6C4160452CF5DF2E0040BABA /* ChoiceFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4160442CF5DF2E0040BABA /* ChoiceFormView.swift */; };
+		6C4160482CF70ED20040BABA /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4160472CF70ED20040BABA /* NavigationManager.swift */; };
+		6C41604A2CF88DBB0040BABA /* QuestionImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4160492CF88DBB0040BABA /* QuestionImagePicker.swift */; };
+		6C41604C2CF895D20040BABA /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41604B2CF895D20040BABA /* FileManagerExtensions.swift */; };
+		6C41604E2CFC2B120040BABA /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C41604D2CFC2B120040BABA /* QuizView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		6C41602D2CF466100040BABA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6C41602F2CF466110040BABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C4160322CF466110040BABA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C41603C2CF466510040BABA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		6C41603E2CF467840040BABA /* QuestionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionDetailView.swift; sourceTree = "<group>"; };
+		6C4160402CF5B9ED0040BABA /* QuestionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionFormView.swift; sourceTree = "<group>"; };
+		6C4160422CF5BD8D0040BABA /* QuestionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListView.swift; sourceTree = "<group>"; };
+		6C4160442CF5DF2E0040BABA /* ChoiceFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceFormView.swift; sourceTree = "<group>"; };
+		6C4160472CF70ED20040BABA /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		6C4160492CF88DBB0040BABA /* QuestionImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionImagePicker.swift; sourceTree = "<group>"; };
+		6C41604B2CF895D20040BABA /* FileManagerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtensions.swift; sourceTree = "<group>"; };
+		6C41604D2CFC2B120040BABA /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,9 @@
 		6C41602A2CF466100040BABA /* DisneyQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				6C4160462CF70EBB0040BABA /* Services */,
+				6C41603A2CF4662D0040BABA /* Views */,
+				6C4160392CF466230040BABA /* Models */,
 				6C41602B2CF466100040BABA /* DisneyQuizApp.swift */,
 				6C41602D2CF466100040BABA /* ContentView.swift */,
 				6C41602F2CF466110040BABA /* Assets.xcassets */,
@@ -65,6 +86,36 @@
 				6C4160322CF466110040BABA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C4160392CF466230040BABA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C41603C2CF466510040BABA /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6C41603A2CF4662D0040BABA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C41603E2CF467840040BABA /* QuestionDetailView.swift */,
+				6C4160402CF5B9ED0040BABA /* QuestionFormView.swift */,
+				6C4160422CF5BD8D0040BABA /* QuestionListView.swift */,
+				6C4160442CF5DF2E0040BABA /* ChoiceFormView.swift */,
+				6C4160492CF88DBB0040BABA /* QuestionImagePicker.swift */,
+				6C41604D2CFC2B120040BABA /* QuizView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6C4160462CF70EBB0040BABA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6C4160472CF70ED20040BABA /* NavigationManager.swift */,
+				6C41604B2CF895D20040BABA /* FileManagerExtensions.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C4160412CF5B9ED0040BABA /* QuestionFormView.swift in Sources */,
+				6C41603D2CF466510040BABA /* Question.swift in Sources */,
+				6C41604E2CFC2B120040BABA /* QuizView.swift in Sources */,
+				6C4160452CF5DF2E0040BABA /* ChoiceFormView.swift in Sources */,
 				6C41602E2CF466100040BABA /* ContentView.swift in Sources */,
+				6C41604A2CF88DBB0040BABA /* QuestionImagePicker.swift in Sources */,
+				6C41603F2CF467840040BABA /* QuestionDetailView.swift in Sources */,
+				6C4160482CF70ED20040BABA /* NavigationManager.swift in Sources */,
+				6C41604C2CF895D20040BABA /* FileManagerExtensions.swift in Sources */,
+				6C4160432CF5BD8D0040BABA /* QuestionListView.swift in Sources */,
 				6C41602C2CF466100040BABA /* DisneyQuizApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,9 +329,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DisneyQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = U8WNKKB2BB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -286,6 +348,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = James.DisneyQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,9 +360,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DisneyQuiz/Preview Content\"";
+				DEVELOPMENT_TEAM = U8WNKKB2BB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,6 +379,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = James.DisneyQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
